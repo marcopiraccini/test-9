@@ -5,6 +5,6 @@
 module.exports = async function (app) {
   app.get('/test-marco', async (request, reply) => {
     app.log.info('test-marco')
-    return 'MARCO TESTTT'
+    return 'MARCO TESTT22T'
   })
 }
